@@ -3,6 +3,7 @@ import React , { Component } from 'react'
 import './App.css';
 import Hello from './components/Hello';
 import Classcomp from './components/Classcomp';
+import Jsxdiff from './components/Jsxdiff';
 
  class App extends Component {
    render() {
@@ -10,6 +11,7 @@ import Classcomp from './components/Classcomp';
     <div className="App">
       <Hello />
       <Classcomp />
+      <Jsxdiff />
     </div>
   );
 }
